@@ -25,7 +25,7 @@ const SearchManufacturer = ({
     <div className="search-manufacturer">
       <Combobox value={manufacturer} onChange={setManufacturer}>
         <div className="relative w-full">
-          <Combobox.Button className="absolute top-[14px]">
+          <Combobox.Button className="absolute top-[14px]" id="1">
             <Image
               src="/car-logo.svg"
               width={20}
@@ -36,6 +36,7 @@ const SearchManufacturer = ({
           </Combobox.Button>
 
           <Combobox.Input
+            id="2"
             className="search-manufacturer__input"
             placeholder="Volkswagen"
             displayValue={(manufacturer: string) => manufacturer}
