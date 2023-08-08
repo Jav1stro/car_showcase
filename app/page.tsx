@@ -92,7 +92,6 @@ export default function Home() {
         ) : (
           <div className="home__eror-container">
             <h2 className="text-black text-xl font-bold">oops, no cars</h2>
-            <p>{allCars?.message}</p>
           </div>
         )}
       </div>
